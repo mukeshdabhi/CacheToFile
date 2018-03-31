@@ -25,14 +25,3 @@ Create object :
  # Unit value
  Provide valid Integer value
 
-# Maven dependency
-&lt;repository&gt; <br/>
-    &lt;id&gt;com.cache&lt;/id&gt;<br/>
-    &lt;url&gt;https://github.com/mukeshdabhi/CacheToFile/blob/master/CacheToFile.jar &lt;/url&gt;<br/>
-&lt;/repository&gt;<br/>
-<br/>
-&lt;dependency&gt;<br/>
-    &lt;groupId&gt;com.cache&lt;/groupId&gt;<br/>
-    &lt;artifactId&gt;Cache-To-File&lt;/artifactId&gt;<br/>
-    &lt;version&gt;1.0&lt;/version&gt;<br/>
-&lt;/dependency&gt;
