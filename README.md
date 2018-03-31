@@ -27,12 +27,3 @@ Create object :
 
 # Maven dependency
 
-<repository>
-    <id>com.cache</id>
-    <url>https://github.com/mukeshdabhi/CacheToFile/blob/master/CacheToFile.jar</url>
-</repository>
-<dependency>
-    <groupId>com.cache</groupId>
-    <artifactId>Cache To File</artifactId>
-    <version>1.0</version>
-</dependency>
