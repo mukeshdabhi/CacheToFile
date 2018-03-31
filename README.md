@@ -11,9 +11,16 @@ Create object :
       out.println("From cache");
     } else {
      //Some long operation 
-      cacheToFile.put("your key", <your object>, CacheToFile.unit.DAY, 360);
+     boolean cached = cacheToFile.put("your key", <your object>, <Cache unit>, <Unit value>);
     }
      
     out.println(cacheToFile.get("your key"));
     out.println("From not cache");
     }
+# Cache unit
+ 1. CacheToFile.unit.DAY
+ 2. CacheToFile.unit.HOUR
+ 3. CacheToFile.unit.MINUTE
+ 
+ # Unit value
+ Provide valid Integer value
