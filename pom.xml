@@ -1,0 +1,18 @@
+<plugin>
+    <groupId>com.cache</groupId>
+    <artifactId>cache-to-file</artifactId>
+    <version>1.0.0</version>
+    <configuration>
+        <replaceExisting>true</replaceExisting>
+        <ignoreTypes>
+            <ignoreType>java-source</ignoreType>
+        </ignoreTypes>
+    </configuration>
+    <executions>
+        <execution>
+            <goals>
+                <goal>deploy</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
